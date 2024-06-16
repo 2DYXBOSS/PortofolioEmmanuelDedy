@@ -12,6 +12,9 @@ body {
 input {
     outline: none;
 }
+a{
+    text-decoration: none;
+}
 .reseua1 {
     height: 150px;
     width: 100%;
@@ -1739,7 +1742,7 @@ a {
         top: 95px;
         right: 20px;
         background-color: white;
-        width: 300px;
+        width: 350px;
         height: 500px;
         z-index: 99999999;
         border-radius: 10px;
@@ -1754,7 +1757,7 @@ a {
         top: 95px;
         right: 20px;
         background-color: white;
-        width: 300px;
+        width: 310px;
         height: 500px;
         z-index: 99999999;
         border-radius: 10px;

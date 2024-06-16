@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,send_file, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from flask import render_template , redirect , request,url_for,flash,Response
 from flask import render_template , redirect , request,url_for,flash,session ,Response
@@ -72,10 +72,19 @@ debug = True
 
 
 
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-@app.route("/")
-def acceuil():
-    return render_template("index.html")
+@app.route('/download')
+def download_file():
+    # Chemin vers le fichier que vous voulez permettre de télécharger
+    filepath = 'static/images/cv.pdf'  # Remplacez par votre chemin de fichier réel
+
+    # Vous pouvez également gérer le nom de fichier de sortie ici
+    filename = 'cv.pdf'
+
+    return send_file(filepath, as_attachment=True, attachment_filename=filename)
 
 
 
