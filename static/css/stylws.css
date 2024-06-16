@@ -5,9 +5,13 @@
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
 }
-/* body {
+body {
     overflow-x: hidden;
-} */
+    width: 100%;
+}
+input {
+    outline: none;
+}
 .reseua1 {
     height: 150px;
     width: 100%;
@@ -380,15 +384,15 @@ a {
         right: -70px;
         top: 50px;
         height: 40px;
-        width: 119px;
+        width: 139px;
         background-color: blue;
         color: white;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 15px;
+        justify-content: center;
+        padding-left: 20px;
         padding-right: 20px;
        
     }
@@ -436,15 +440,15 @@ a {
         right: -50px;
         top: 50px;
         height: 40px;
-        width: 110px;
+        width: 130px;
         background-color: blue;
         color: white;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 15px;
+        justify-content: center;
+        padding-left: 20px;
         padding-right: 20px;
        
     }
@@ -492,15 +496,15 @@ a {
         right: -15px;
         top: 50px;
         height: 40px;
-        width: 215px;
+        width: 235px;
         background-color: blue;
         color: white;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 15px;
+        justify-content: center;
+        padding-left: 20px;
         padding-right: 20px;
        
     }
@@ -570,15 +574,15 @@ a {
         /* margin: 0 auto; */
         top: 50px;
         height: 40px;
-        width: 250px;
+        width: 270px;
         background-color: blue;
         color: white;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 15px;
+        justify-content: center;
+        padding-left: 20px;
         padding-right: 20px;
        
     }
@@ -592,15 +596,15 @@ a {
         /* margin: 0 auto; */
         top: 50px;
         height: 40px;
-        width: 250px;
+        width: 270px;
         background-color: blue;
         color: white;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 15px;
+        justify-content: center;
+        padding-left: 20px;
         padding-right: 20px;
        
     }
@@ -685,7 +689,9 @@ a {
     #softre {
         position: absolute;
         top: 5vh;
+        font-size: 2rem;
         /* top: 200px; */
+       
         right: 10px;
         padding-top: 50px;
         animation: softre 10s ease-out;
@@ -906,6 +912,10 @@ a {
         justify-content: center;
     }
 }
+
+
+
+
 @media (min-width : 1000px) {
    
     .contacde {
@@ -1215,7 +1225,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 7px;
+        padding-left: 10px;
         padding-right: 20px;
        
     }
@@ -1271,7 +1281,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 7px;
+        padding-left: 10px;
         padding-right: 20px;
        
     }
@@ -1327,7 +1337,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 7px;
+        padding-left: 10px;
         padding-right: 20px;
        
     }
@@ -1394,7 +1404,7 @@ a {
         right: -238px;
         /* top: 50px; */
         height: 40px;
-        width: 280px;
+        width: 300px;
         background-color: blue;
         color: white;
         border-top-left-radius: 20px;
@@ -1402,7 +1412,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 15px;
+        padding-left: 7px;
         padding-right: 20px;
        
     }
@@ -1491,6 +1501,7 @@ a {
     #softre {
         position: absolute;
         top: 20vh;
+        font-size: 5rem;
         /* top: 200px; */
         left: -70px;
         padding-top: 50px;
@@ -2155,7 +2166,7 @@ a {
     right: -70px;
     top: 50px;
     height: 40px;
-    width: 119px;
+    width: 139px;
     background-color: blue;
     color: white;
     border-top-left-radius: 20px;
@@ -2211,15 +2222,15 @@ a {
     right: -50px;
     top: 50px;
     height: 40px;
-    width: 110px;
+    width: 130px;
     background-color: blue;
     color: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 15px;
+    justify-content: center;
+    padding-left: 20px;
     padding-right: 20px;
    
 }
@@ -2267,15 +2278,15 @@ a {
     right: -15px;
     top: 50px;
     height: 40px;
-    width: 215px;
+    width: 230px;
     background-color: blue;
     color: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 15px;
+    justify-content: center;
+    padding-left: 20px;
     padding-right: 20px;
    
 }
@@ -2345,15 +2356,15 @@ a {
     /* margin: 0 auto; */
     top: 50px;
     height: 40px;
-    width: 250px;
+    width: 270px;
     background-color: blue;
     color: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 15px;
+    justify-content: center;
+    padding-left: 20px;
     padding-right: 20px;
    
 }
@@ -2367,15 +2378,15 @@ a {
     /* margin: 0 auto; */
     top: 50px;
     height: 40px;
-    width: 250px;
+    width: 270px;
     background-color: blue;
     color: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 15px;
+    justify-content: center;
+    padding-left: 20px;
     padding-right: 20px;
    
 }
