@@ -17,6 +17,7 @@ print(formatted_time)
 print(formatted)
 print(dataheure)
 
+print(2)
 
 from flask import Flask, request, render_template, redirect, url_for,send_file
 import smtplib
