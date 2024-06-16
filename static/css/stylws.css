@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
 }
 body {
@@ -170,6 +172,11 @@ a {
     display: none;
 }
 @media (max-width : 600px) {
+     body {
+        overflow-x: hidden;
+        width: 100%;
+        
+    }
     .monImge {
         height: 150px;
         width: 100%;
@@ -233,13 +240,13 @@ a {
         z-index: 999999;
     }
     #ggedsn {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
     #ggedsn1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     #ggedsn2 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .reseua {
         height: 150px;
@@ -930,7 +937,11 @@ a {
 
 
 @media (min-width : 1000px) {
-   
+     body {
+        overflow-x: hidden;
+        width: 100%;
+        
+    }
     .contacde {
         height: 600px;
         width: 100%;
@@ -1622,6 +1633,11 @@ a {
 
 /* ordinateur */
 @media (min-width : 800px) {
+     body {
+        overflow-x: hidden;
+        width: 100%;
+        
+    }
     .menhoa {
         display: none;
     }
@@ -1747,6 +1763,11 @@ a {
 
 /* telephone */
 @media (max-width : 800px) {
+     body {
+        overflow-x: hidden;
+        width: 100%;
+        
+    }
     .menhoa {
         position: fixed;
         top: 95px;
