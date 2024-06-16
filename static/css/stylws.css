@@ -8,6 +8,7 @@
 body {
     overflow-x: hidden;
     width: 100%;
+    height: auto;
 }
 input {
     outline: none;
@@ -230,6 +231,15 @@ a {
         width: 100%;
         background-color: black;
         z-index: 999999;
+    }
+    #ggedsn {
+        font-size: 2.5rem;
+    }
+    #ggedsn1 {
+        font-size: 1.5rem;
+    }
+    #ggedsn2 {
+        font-size: 1rem;
     }
     .reseua {
         height: 150px;
