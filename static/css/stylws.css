@@ -21,7 +21,7 @@ a{
 .reseua1 {
     height: 150px;
     width: 100%;
-    /* background-color: yellow; */
+    /* background-color: blueviolet; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,22 +221,23 @@ a {
         width: 100%;
         background-color: black;
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
     }
     .acceuilBien {
-        height: 100%;
+        height: 80%;
         width: 100%;
         max-width: 1200px;
         position: relative;
         display: flex;
         flex-direction: column;
+        /* background-color: yellow; */
     }
     .textesacc {
         display: block;
         height: 170px;
         width: 100%;
-        background-color: black;
+        /* background-color: red; */
         z-index: 999999;
     }
     #ggedsn {
@@ -253,7 +254,7 @@ a {
         width: 100%;
         /* background-color: yellow; */
         display: flex;
-        align-items: center;
+        align-items: end;
         justify-content: center;
         /* flex-direction: column; */
         /* padding-left: 20px; */
@@ -261,6 +262,7 @@ a {
         gap: 10px;
         /* padding-bottom: 100px; */
         position: absolute;
+        padding-bottom: 20px;
         bottom: 0;
         z-index: 99999;
 
@@ -1755,6 +1757,9 @@ a {
     .Grostexte {
         font-size: 3.2vh;
     }
+    .Grostexte1 {
+        font-size: 3rem;
+    }
     /* .about h1 {
         font-size: 5vh;
     } */
@@ -1762,7 +1767,7 @@ a {
         font-size: 5vh;
     }
     .about p {
-      
+        font-size: 1.6vh;
         padding-top: 10px;
     }
     .nodmhf {
@@ -1782,6 +1787,9 @@ a {
     #nompr {
         font-size: 2.8vh;
     }
+    .Grostexte1 {
+        font-size: 2.5vh;
+    }
     .Grostexte {
         font-size: 2.5vh;
     }
@@ -1791,7 +1799,7 @@ a {
         font-size: 2.5vh;
     } */
     .about p {
-        font-size: 1.2vh;
+        font-size: 1.3vh;
         padding-top: 10px;
     }
     body {
