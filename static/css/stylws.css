@@ -1752,15 +1752,22 @@ a {
             transition: 4ms ;
         }
     }
-
-    .about h1 {
+    .Grostexte {
+        font-size: 3.2vh;
+    }
+    /* .about h1 {
+        font-size: 5vh;
+    } */
+    #nompr {
         font-size: 5vh;
     }
     .about p {
       
         padding-top: 10px;
     }
-    
+    .nodmhf {
+        font-size: 3vh;
+    }
 }
 
 
@@ -1769,7 +1776,25 @@ a {
 
 /* telephone */
 @media (max-width : 800px) {
-     body {
+    .nodmhf {
+        font-size: 2.5vh;
+    }
+    #nompr {
+        font-size: 2.8vh;
+    }
+    .Grostexte {
+        font-size: 2.5vh;
+    }
+    
+/* 
+    .about h1 {
+        font-size: 2.5vh;
+    } */
+    .about p {
+        font-size: 1.2vh;
+        padding-top: 10px;
+    }
+    body {
         overflow-x: hidden;
         width: 100%;
         
@@ -1956,13 +1981,6 @@ a {
 
 
 
-    .about h1 {
-        font-size: 3vh;
-    }
-    .about p {
-        font-size: 1.5vh;
-        padding-top: 10px;
-    }
    
 }
 
