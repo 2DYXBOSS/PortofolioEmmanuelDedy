@@ -86,8 +86,43 @@ def download_file():
 
     return send_file(filepath, as_attachment=True, attachment_filename=filename)
 
+@app.route('/emmanuelDedy')
+def emmanuelDedy():
+    return send_file("static/images/cv.pdf")
 
 
+
+
+@app.route('/message', methods=['POST'])
+def message():
+    
+    # sujet = request.form['sujet']
+    # tre = Connecter.query.get(1)
+    # if 'utilisateur_id' in session:
+    #     user = Profil.query.get(session['utilisateur_id'])
+    # else:
+    #     return redirect('/pre')
+    destinataire = "2dyxboss225@gmail.com"
+    nom = request.form.get("nom")
+    email = request.form.get("email")
+    sujet = f"Message de {nom} via son mail {email} "
+    contenu = request.form.get("contenu")
+
+    msg = Message(sujet, recipients=[destinataire])
+    msg.body = contenu
+    
+    try:
+
+        mail.send(msg)
+        flash("Commande validee avec succes", 'success')
+
+        
+    except Exception as e:
+        flash("Une erreur s'est produite lors de l'envoi de l'e-mail", 'danger')
+
+    return redirect("/#Contact")
+    # return render_template("payement.html")
+# FIN COMMANDER
 
 if __name__ == '__main__' :
     app.run(debug=True,port=5005)

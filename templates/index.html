@@ -56,7 +56,7 @@
         <p id="meryhd1" style="font-size: 0.5rem;color: gray;" >Explorez tout le potentiel en meme temps</p>
     </div>
 
-    <a href="{{ url_for('download_file') }}" class="telecharger">
+    <a href="{{ url_for('emmanuelDedy') }}" class="telecharger">
     
         <img src="{{url_for('static', filename='images/cv.png')}}" width="25px" height="25px" style="filter: invert();" alt="">
         <div class="telecharger1">
@@ -176,7 +176,7 @@
         </div>
         <div class="descrpdj">
             <img src="{{url_for('static', filename='images/idee.png')}}"  height="30px" id="idee" alt="">
-            <p style="text-align: center;color: rgb(97, 97, 97);background-color: rgba(238, 238, 238, 0.128);padding-bottom: 20px;border-radius: 10px;padding-top: 20px;padding-left: 20px;padding-right: 20px;">Prince Ange Emmanuel DEDY, est un Software Developer <strong>Angular</strong> | <strong>Django</strong> | <strong>Tailwind css</strong> | <strong>Bootstrap</strong> .
+            <p style="text-align: center;color: rgb(116, 116, 116);background-color: rgba(238, 238, 238, 0.275);padding-bottom: 20px;border-radius: 10px;padding-top: 20px;padding-left: 20px;padding-right: 20px;">Prince Ange Emmanuel DEDY, est un Software Developer <strong>Angular</strong> | <strong>Django</strong> | <strong>Tailwind css</strong> | <strong>Bootstrap</strong> .
                 Depuis 2 ans maintenant je réalise des projets complets avec <strong>Python</strong> & <strong>JavaScript</strong> . Je souhaite bien travailler dans une société de la place pour apporter de mes connaissances et élargir mes compétences 👨🏾‍💻 .
                 Je peux tout faire 😌 I’m smart .</p>
         </div>
@@ -334,7 +334,7 @@
         
     </div>
     <div class="tefdg">
-        <a href="{{ url_for('download_file') }}" id="monCvd">
+        <a href="{{ url_for('emmanuelDedy') }}" id="monCvd">
        
        
             <img src="{{url_for('static', filename='images/cv.png')}}" style="filter: invert();" width="25px" height="25px" alt="" >
@@ -534,12 +534,12 @@
                     </div>
                 </div>
                 <div class="infiooee2">
-                    <form action="" method="post" id="hfhjfjf">
-                        <input type="text" placeholder="Entrez votre nom">
-                        <input type="text" placeholder="Entrez votre mail">
+                    <form action="/message" enctype="multipart/form-data" method="post" id="hfhjfjf">
+                        <input type="text" placeholder="Entrez votre nom" name="nom">
+                        <input type="text" placeholder="Entrez votre mail" name="email">
                         
-                        <textarea name="" id="" placeholder="Entrez votre message" rows="7"></textarea>
-                        <button> <h1 style="color: white;font-size: 1.3rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Envoyer message</h1></button>
+                        <textarea name="contenu" id="" placeholder="Entrez votre message" rows="7"></textarea>
+                        <button type="submit"> <h1 style="color: white;font-size: 1.3rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Envoyer message</h1></button>
                     </form>
                 </div>
             </div>
