@@ -60,7 +60,7 @@ SMTP_PASSWORD = 'tdqn cklm uvjd aonn'
 app.secret_key = os.urandom(24)
 mail = Mail(app)
 # fin
-
+# ghhh
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
 
