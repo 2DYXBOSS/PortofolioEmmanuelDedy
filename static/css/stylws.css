@@ -288,9 +288,9 @@ a {
         align-items: center;
         justify-content: center;
         position: relative;
-        animation: cercle1 10s ease-out;
+        /* animation: cercle1 10s ease-out; */
     }
-    @keyframes cercle1 {
+    /* @keyframes cercle1 {
         0%{
             transform: translateX(-1200px);
         }
@@ -298,7 +298,7 @@ a {
             transform: translateX(0px);
             transition: 4ms ;
         }
-    }
+    } */
     #gite2 {
         display: none;
     }
@@ -312,9 +312,9 @@ a {
         align-items: center;
         justify-content: center;
         position: relative;
-        animation: cercle2 10s ease-out;
+        /* animation: cercle2 10s ease-out; */
     }
-    @keyframes cercle2 {
+    /* @keyframes cercle2 {
         0%{
             transform: translateX(-1900px);
         }
@@ -322,7 +322,7 @@ a {
             transform: translateX(0px);
             transition: 4ms ;
         }
-    }
+    } */
     .cercle3 {
         height: 40px;
         width: 40px;
@@ -332,9 +332,9 @@ a {
         align-items: center;
         justify-content: center;
         position: relative;
-        animation: cercle3 10s ease-out;
+        /* animation: cercle3 10s ease-out; */
     }
-    @keyframes cercle3 {
+    /* @keyframes cercle3 {
         0%{
             transform: translateX(-2600px);
         }
@@ -342,7 +342,7 @@ a {
             transform: translateX(0px);
             transition: 4ms ;
         }
-    }
+    } */
     .cercle41 {
         height: 40px;
         width: 40px;
@@ -353,7 +353,7 @@ a {
         justify-content: center;
         position: relative;
         color: black;
-        animation: cercle4 10s ease-out;
+        /* animation: cercle4 10s ease-out; */
         /* margin-top: 100px; */
     }
     .cercle4 {
@@ -366,7 +366,7 @@ a {
         justify-content: center;
         position: relative;
         color: black;
-        animation: cercle4 10s ease-out;
+        /* animation: cercle4 10s ease-out; */
         /* margin-top: 100px; */
     }
     @keyframes cercle4 {
@@ -716,7 +716,7 @@ a {
        
         right: 10px;
         padding-top: 50px;
-        animation: softre 10s ease-out;
+        /* animation: softre 10s ease-out; */
     }
     @keyframes softre {
         0%{
@@ -745,7 +745,7 @@ a {
         top: 20vh;
         left: -70px;
         padding-top: 140px;
-        animation: softre1 10s ease-out;
+        /* animation: softre1 10s ease-out; */
     }
     @keyframes softre1 {
         0%{
@@ -762,7 +762,7 @@ a {
         padding-top: 200px;
         top: 20vh;
         left: -70px;
-        animation: softre2 10s ease-out;
+        /* animation: softre2 10s ease-out; */
     }
     @keyframes softre2 {
         0%{
