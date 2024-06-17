@@ -65,6 +65,7 @@ a{
     gap: 20px;
     padding-top: 50px;
     padding-left: 10px;
+    overflow-x: hidden;
 }
 .pythonComp {
     height: 400px;
@@ -223,6 +224,7 @@ a {
         display: flex;
         align-items: start;
         justify-content: center;
+        overflow-x: hidden;
     }
     .acceuilBien {
         height: 80%;
@@ -231,6 +233,7 @@ a {
         position: relative;
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
         /* background-color: yellow; */
     }
     .textesacc {
@@ -811,6 +814,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-x: hidden;
     }
     .pagend1 {
         height: 200px;
@@ -821,6 +825,7 @@ a {
         align-items: center;
         justify-content: center;
         gap: 2px;
+        overflow-x: hidden;
     }
     .stat11 {
         height: 200px;
@@ -957,6 +962,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-x: hidden;
     }
     .retsffdf {
         height: 400px;
@@ -1050,6 +1056,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-x: hidden;
     }
     .pagend {
         height: 300px;
@@ -1059,6 +1066,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-x: hidden;
     }
     .stat1 {
         height: 200px;
@@ -1954,6 +1962,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-x: hidden;
     }
     .enteteBien {
         height: 100%;
@@ -1997,6 +2006,7 @@ a {
     /* height: 130vh; */
     width: 100%;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .trait {
@@ -2012,7 +2022,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    overflow-x: hidden;
 }
 .messite {
     height: 150px;
@@ -2032,6 +2042,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
+    overflow-x: hidden;
 }
 
 .tefdg {
@@ -2042,6 +2053,7 @@ a {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    overflow-x: hidden;
 }
 #monCvd {
 
@@ -2067,7 +2079,7 @@ a {
     width: 100%;
     /* background-color: yellow; */
     max-width: 1200px;
-   
+    overflow-x: hidden;
 }
 /* .retsffdf {
     height: 400px;
@@ -2080,6 +2092,7 @@ a {
     width: 100%;
     height: 500px;
     background-color: black;
+    overflow-x: hidden;
 }
 
 
