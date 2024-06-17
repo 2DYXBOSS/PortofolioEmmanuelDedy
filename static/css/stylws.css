@@ -48,7 +48,7 @@ a{
     max-width: 1200px;
     /* background-color: yellow; */
     display: flex;
-    justify-content:start;
+    justify-content:center;
     flex-wrap: wrap;
     gap: 20px;
     padding-top: 50px;
@@ -73,6 +73,15 @@ a{
     /* padding-left: 10px; */
     /* background-color: green; */
 }
+.pricpalan {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
 .pythonComp1 {
     /* height: 400px; */
     width: 280px;
@@ -83,15 +92,7 @@ a{
     padding-right: 20px;
     padding-left: 20px;
 }
-.pricpalan {
-    height: 70px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
-}
+
 .pricpalan1 {
     height: 70px;
     width: 100%;
@@ -501,6 +502,9 @@ a {
         filter: invert();
     }
 }
+/* @media (max-width : 600px) {
+
+} */
 @media (max-width : 600px) {
      body {
         overflow-x: hidden;
@@ -525,10 +529,11 @@ a {
     
     }
     .pythonComp {
-        height: 350px;
+        height: auto;
         width: 280px;
-        padding-left: 30px;
+        /* padding-left: 30px; */
         margin: 0 auto;
+        padding-bottom: 50px;
         /* background-color: green; */
     }
     .pythonComp1 {
