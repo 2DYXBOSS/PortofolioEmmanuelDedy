@@ -112,7 +112,7 @@ a{
     justify-content: center;
     bottom: 20px;
     right: 20px;
-    z-index: 99999999999;
+    z-index: 99999999999999999999;
     border: none;
 }
 .telecharger1{
@@ -268,7 +268,7 @@ a {
         position: absolute;
         padding-bottom: 53px;
         bottom: 0;
-        z-index: 9999999999999;
+        z-index: 999999999;
 
     }
     .cercle1, .cercle2 , .cercle3 , .cercle4 {
@@ -1824,7 +1824,7 @@ a {
         background-color: white;
         width: 350px;
         height: 500px;
-        z-index: 99999999;
+        z-index: 9999999999999999;
         border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
@@ -1839,7 +1839,7 @@ a {
         background-color: white;
         width: 310px;
         height: 500px;
-        z-index: 99999999;
+        z-index: 9999999999999999;
         border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
