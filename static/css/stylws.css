@@ -172,6 +172,333 @@ a {
 .textesacc {
     display: none;
 }
+@media (max-width : 350px) {
+    .menhoa {
+        position: fixed;
+        /* top: 95px;
+        right: 20px; */
+        /* background-color: white; */
+        width: 100%;
+        height: 500px;
+        z-index: 9999999999999999;
+        /* border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535); */
+        display: none;
+    }
+    .menhoa.active{
+        display: block;
+        position: fixed;
+        overflow-y: scroll;
+        /* top: 95px;
+        right: 20px; */
+        /* background-color: red; */
+        width: 100%;
+        /* height: 500px; */
+        padding-bottom: 100px;
+        z-index: 9999999999999999;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        padding-top: 95px;
+        /* padding-right: 20px; */
+        /* border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535); */
+    }
+    .vraimamenu {
+        background-color: white;
+        width: 100%;
+        /* min-width: ; */
+        /* max-width: 310px; */
+        height: 500px;
+
+        z-index: 9999999999999999;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535);
+        position: relative;
+    }
+    #cdghd {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .hsufhd {
+        height: 40px;
+        width: 40px;
+        background-color: blue;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hduddjds {
+        height: 40px;
+        /* background-color: red; */
+    }
+    .menuss {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* padding-top: 10px; */
+        gap: 10px;
+        padding-top: 30px;
+        margin-bottom: 40px;
+        /* padding-left: 10px; */
+        /* background-color: red; */
+    }
+    #meryhd {
+        position: absolute;
+        bottom: 30px;
+    }
+    #meryhd1 {
+        position: absolute;
+        bottom: 15px;
+    }
+    .mebhhd11 {
+        height: 70px;
+        width: 100%;
+        background-color: rgba(235, 235, 235, 0.444);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: black;
+    }
+    .mebhhd11:hover{
+        height: 70px;
+        width: 100%;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    .mebhhd11:hover img{
+        filter: invert();
+    }
+    .mebhhd11.active{
+        height: 70px;
+        width: 100%;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    .mebhhd11.active img{
+        filter: invert();
+    }
+    .mebhhd1 {
+        height: 70px;
+        width: 100%;
+        /* background-color: rgba(235, 235, 235, 0.444); */
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: black;
+    }
+    .mebhhd1:hover{
+        height: 70px;
+        width: 100%;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    .mebhhd1:hover img{
+        filter: invert();
+    }
+    
+}
+@media (min-width : 350px) and (max-width : 800px) {
+    .menhoa {
+        position: fixed;
+        /* top: 95px;
+        right: 20px; */
+        /* background-color: white; */
+        width: 100%;
+        /* height: 500px; */
+        z-index: 9999999999999999;
+        /* border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535); */
+        display: none;
+    }
+    .menhoa.active{
+        display: block;
+        position: fixed;
+        overflow-y: scroll;
+        /* top: 95px;
+        right: 20px; */
+        /* background-color: red; */
+        width: 100%;
+        /* height: 500px; */
+        padding-bottom: 100px;
+        z-index: 9999999999999999;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        padding-top: 95px;
+        padding-right: 20px;
+        /* border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535); */
+    }
+    .vraimamenu {
+        background-color: white;
+        width: 100%;
+        /* min-width: ; */
+        max-width: 310px;
+        height: 500px;
+
+        z-index: 9999999999999999;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535);
+        position: relative;
+    }
+    #cdghd {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .hsufhd {
+        height: 40px;
+        width: 40px;
+        background-color: blue;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hduddjds {
+        height: 40px;
+        /* background-color: red; */
+    }
+    .menuss {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* padding-top: 10px; */
+        gap: 10px;
+        padding-top: 30px;
+        margin-bottom: 40px;
+        /* padding-left: 10px; */
+        /* background-color: red; */
+    }
+    #meryhd {
+        position: absolute;
+        bottom: 30px;
+    }
+    #meryhd1 {
+        position: absolute;
+        bottom: 15px;
+    }
+    .mebhhd11 {
+        height: 70px;
+        width: 100%;
+        background-color: rgba(235, 235, 235, 0.444);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: black;
+    }
+    .mebhhd11:hover{
+        height: 70px;
+        width: 100%;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    .mebhhd11:hover img{
+        filter: invert();
+    }
+    .mebhhd11.active{
+        height: 70px;
+        width: 100%;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    .mebhhd11.active img{
+        filter: invert();
+    }
+    .mebhhd1 {
+        height: 70px;
+        width: 100%;
+        /* background-color: rgba(235, 235, 235, 0.444); */
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: black;
+    }
+    .mebhhd1:hover{
+        height: 70px;
+        width: 100%;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    .mebhhd1:hover img{
+        filter: invert();
+    }
+}
 @media (max-width : 600px) {
      body {
         overflow-x: hidden;
@@ -1817,146 +2144,7 @@ a {
         width: 100%;
         
     }
-    .menhoa {
-        position: fixed;
-        top: 95px;
-        right: 20px;
-        background-color: white;
-        width: 350px;
-        height: 500px;
-        z-index: 9999999999999999;
-        border-radius: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535);
-        display: none;
-    }
-    .menhoa.active{
-        display: block;
-        position: fixed;
-        top: 95px;
-        right: 20px;
-        background-color: white;
-        width: 310px;
-        height: 500px;
-        z-index: 9999999999999999;
-        border-radius: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535);
-    }
-    #cdghd {
-        position: absolute;
-        right: 10px;
-        top: 10px;
-    }
-    .hsufhd {
-        height: 40px;
-        width: 40px;
-        background-color: blue;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .hduddjds {
-        height: 40px;
-        /* background-color: red; */
-    }
-    .menuss {
-        height: 40px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        /* padding-top: 10px; */
-        gap: 10px;
-        padding-top: 30px;
-        margin-bottom: 40px;
-        /* padding-left: 10px; */
-        /* background-color: red; */
-    }
-    #meryhd {
-        position: absolute;
-        bottom: 30px;
-    }
-    #meryhd1 {
-        position: absolute;
-        bottom: 15px;
-    }
-    .mebhhd11 {
-        height: 70px;
-        width: 100%;
-        background-color: rgba(235, 235, 235, 0.444);
-        border-radius: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-        padding-left: 20px;
-        color: black;
-    }
-    .mebhhd11:hover{
-        height: 70px;
-        width: 100%;
-        background-color: blue;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-        padding-left: 20px;
-        color: white;
-    }
-    .mebhhd11:hover img{
-        filter: invert();
-    }
-    .mebhhd11.active{
-        height: 70px;
-        width: 100%;
-        background-color: blue;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-        padding-left: 20px;
-        color: white;
-    }
-    .mebhhd11.active img{
-        filter: invert();
-    }
-    .mebhhd1 {
-        height: 70px;
-        width: 100%;
-        /* background-color: rgba(235, 235, 235, 0.444); */
-        border-radius: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-        padding-left: 20px;
-        color: black;
-    }
-    .mebhhd1:hover{
-        height: 70px;
-        width: 100%;
-        background-color: blue;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-        padding-left: 20px;
-        color: white;
-    }
-    .mebhhd1:hover img{
-        filter: invert();
-    }
+    
     #entete {
         height: 100px;
         width: 100%;

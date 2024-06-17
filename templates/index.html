@@ -16,44 +16,47 @@
 </head>
 <body>
     <div class="menhoa">
-        <div class="menuss">
+        <div class="vraimamenu">
+            <div class="menuss">
             
-            <div class="hsufhd">
-                <img src="{{url_for('static', filename='images/menshd.png')}}" width="25px" height="25px" style="filter: invert();" alt="">
+                <div class="hsufhd">
+                    <img src="{{url_for('static', filename='images/menshd.png')}}" width="25px" height="25px" style="filter: invert();" alt="">
+                </div>
+                <div class="hduddjds">
+                    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1.5rem;">MENU</h1>
+                    <p style="font-size: 0.5rem;color: gray;">Explorez tout le potentiel en meme temps</p>
+                </div>
+                <img src="{{url_for('static', filename='images/croix.png')}}" width="25px" height="25px" alt="" id="cdghd">
+                
             </div>
-            <div class="hduddjds">
-                <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1.5rem;">MENU</h1>
-                <p style="font-size: 0.5rem;color: gray;">Explorez tout le potentiel en meme temps</p>
-            </div>
-            <img src="{{url_for('static', filename='images/croix.png')}}" width="25px" height="25px" alt="" id="cdghd">
-            
+            <a href="#entete">
+                <div class="mebhhd11" id="accee">
+                    <img src="{{url_for('static', filename='images/hoems.png')}}" width="25px" height="25px" alt="">
+                    <p style="font-size: 0.8rem;">Acceuil </p>
+                </div>
+            </a>
+            <a href="#Apropos">
+                <div class="mebhhd11" id="aprop">
+                    <img src="{{url_for('static', filename='images/moisd.png')}}" width="25px" height="25px" alt="">
+                    <p style="font-size: 0.8rem;">A propos de moi </p>
+                </div>
+            </a>
+            <a href="#Portofolio">
+                <div class="mebhhd11" id="pord">
+                    <img src="{{url_for('static', filename='images/cv.png')}}" width="25px" height="25px" alt="">
+                    <p style="font-size: 0.8rem;">Mon Portofolio</p>
+                </div>
+            </a>
+            <a href="#Contact">
+                <div class="mebhhd11" id="cone">
+                    <img src="{{url_for('static', filename='images/tel.png')}}" width="25px" height="25px" alt="">
+                    <p style="font-size: 0.8rem;">Mes Contacts </p>
+                </div>
+            </a>
+            <h1 id="meryhd" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1.5rem;">Merci à vous !</h1>
+            <p id="meryhd1" style="font-size: 0.5rem;color: gray;" >Explorez tout le potentiel en meme temps</p>
         </div>
-        <a href="#entete">
-            <div class="mebhhd11" id="accee">
-                <img src="{{url_for('static', filename='images/hoems.png')}}" width="25px" height="25px" alt="">
-                <p style="font-size: 0.8rem;">Acceuil </p>
-            </div>
-        </a>
-        <a href="#Apropos">
-            <div class="mebhhd11" id="aprop">
-                <img src="{{url_for('static', filename='images/moisd.png')}}" width="25px" height="25px" alt="">
-                <p style="font-size: 0.8rem;">A propos de moi </p>
-            </div>
-        </a>
-        <a href="#Portofolio">
-            <div class="mebhhd11" id="pord">
-                <img src="{{url_for('static', filename='images/cv.png')}}" width="25px" height="25px" alt="">
-                <p style="font-size: 0.8rem;">Mon Portofolio</p>
-            </div>
-        </a>
-        <a href="#Contact">
-            <div class="mebhhd11" id="cone">
-                <img src="{{url_for('static', filename='images/tel.png')}}" width="25px" height="25px" alt="">
-                <p style="font-size: 0.8rem;">Mes Contacts </p>
-            </div>
-        </a>
-        <h1 id="meryhd" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1.5rem;">Merci à vous !</h1>
-        <p id="meryhd1" style="font-size: 0.5rem;color: gray;" >Explorez tout le potentiel en meme temps</p>
+        
     </div>
 
     <a href="{{ url_for('emmanuelDedy') }}" class="telecharger">
