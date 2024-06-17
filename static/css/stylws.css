@@ -198,6 +198,8 @@ a {
         /* height: 500px; */
         padding-bottom: 100px;
         z-index: 9999999999999999;
+        padding-left: 7px;
+        padding-right: 7px;
         display: flex;
         align-items: start;
         justify-content: end;
