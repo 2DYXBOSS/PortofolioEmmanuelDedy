@@ -9,6 +9,7 @@ let selcdgfh = document.querySelector('.selcdgfh')
 let mavideopre = document.querySelector('.mavideopre')
 let fermer = document.querySelector('#fermer')
 let ouvrir = document.querySelector('#ouvrir')
+let dhjkfkr = document.querySelector('#dhjkfkr')
 selcdgfh.addEventListener('click',()=>{
     mavideopre.classList.add("active")
     fermer.classList.add("active")
@@ -17,6 +18,14 @@ selcdgfh.addEventListener('click',()=>{
     
 });
 fermer.addEventListener('click',()=>{
+    mavideopre.classList.remove("active")
+    fermer.classList.remove("active")
+    ouvrir.classList.remove("active")
+
+
+    
+});
+dhjkfkr.addEventListener('click',()=>{
     mavideopre.classList.remove("active")
     fermer.classList.remove("active")
     ouvrir.classList.remove("active")
