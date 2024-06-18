@@ -5,6 +5,31 @@
 
 
 
+let selcdgfh = document.querySelector('.selcdgfh')
+let mavideopre = document.querySelector('.mavideopre')
+let fermer = document.querySelector('#fermer')
+let ouvrir = document.querySelector('#ouvrir')
+selcdgfh.addEventListener('click',()=>{
+    mavideopre.classList.add("active")
+    fermer.classList.add("active")
+    ouvrir.classList.add("active")
+
+    
+});
+fermer.addEventListener('click',()=>{
+    mavideopre.classList.remove("active")
+    fermer.classList.remove("active")
+    ouvrir.classList.remove("active")
+
+
+    
+});
+// cdghd.addEventListener('click',()=>{
+//     menhoa.classList.remove("active")
+
+    
+// });
+
 let logoMenu = document.querySelector('.logoMenu')
 let menhoa = document.querySelector('.menhoa')
 let cdghd = document.querySelector('#cdghd')

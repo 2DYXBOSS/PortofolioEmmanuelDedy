@@ -539,7 +539,7 @@ a {
     }
 }
 @media (max-width : 600px) {
-     body {
+    body {
         overflow-x: hidden;
         width: 100%;
         
@@ -576,7 +576,7 @@ a {
         margin: 0 auto;
         /* background-color: green; */
     }
-
+    
     .videoprese {
         height: 110px;
         width: 100%;
@@ -2761,4 +2761,153 @@ a {
     /* margin-top: 100px; */
 }
 
+
+
+
+@media (min-width : 400px) {
+    .mavideopre {
+        display: none;
+    }
+    #fermer {
+        display: none;
+       
+        
+    }
+    #fermer.active {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 3px 2px rgba(39, 39, 39, 0.194);
+        padding-left: 3px;
+    }
+    #ouvrir {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 3px 2px rgba(39, 39, 39, 0.194);
+        padding-left: 3px;
+    }
+    #ouvrir.active {
+        display: none;
+        
+    }
+    .mavideopre.active {
+        height: 700px;
+        width: 100%;
+        /* background-color: red; */
+        position: fixed;
+        z-index: 99999999999999999;
+        top: 0;
+        right: 0;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lavrsividersid {
+        width: 320px;
+        height: 568px;
+        /* background-color: rgba(43, 43, 43, 0.035); */
+        border-radius: 45px;
+        /* box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.282); */
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #gshshhshs {
+        position: absolute;
+        top: 45px;
+        width: 285px;
+        height: 475px;
+        /* border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px; */
+    }
+}
+
+@media (max-width : 400px) {
+    #fermer {
+        display: none;
+        
+    }
+    #fermer.active {
+        display: block;
+        /* transform: rotate(90deg); */
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 3px 2px rgba(39, 39, 39, 0.194);
+        padding-left: 3px;
+    }
+    #ouvrir {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 3px 2px rgba(39, 39, 39, 0.194);
+        padding-left: 3px;
+    }
+    #ouvrir.active {
+        display: none;
+        
+    }
+    .mavideopre {
+        display: none;
+    }
+    .mavideopre.active {
+        height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+        position: fixed;
+        z-index: 99999999999999999;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 200px;
+        /* overflow-x: scroll; */
+    }
+    .lavrsividersid {
+        width: 320px;
+        height: 568px;
+        /* background-color: rgba(43, 43, 43, 0.035); */
+        border-radius: 45px;
+        /* box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.282); */
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #gshshhshs {
+        position: absolute;
+        top: 45px;
+        width: 285px;
+        height: 475px;
+        /* border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px; */
+    }
+}
 
