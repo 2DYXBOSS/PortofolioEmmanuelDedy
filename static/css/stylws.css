@@ -18,6 +18,9 @@ input {
 a{
     text-decoration: none;
 }
+textarea {
+    outline: none;
+}
 .reseua1 {
     height: 150px;
     width: 100%;
@@ -115,6 +118,16 @@ a{
     right: 20px;
     z-index: 99999999999999999999;
     border: none;
+    animation: telecharger2 15s ease-in-out;
+}
+
+@keyframes telecharger2 {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
 .telecharger1{
     position: absolute;
@@ -647,12 +660,42 @@ a {
     }
     #ggedsn {
         font-size: 3.2rem;
+        animation: ggedsn 10s ease-in-out;
+    }
+    @keyframes ggedsn {
+        0%{
+            transform: translateX(-1000px);
+        }
+        35%{
+            transform: translateX(0px);
+            transition: 2s all ;
+        }
     }
     #ggedsn1 {
         font-size: 1.8rem;
+        animation: ggedsn1 10s ease-in-out;
+    }
+    @keyframes ggedsn1 {
+        0%{
+            transform: translateX(-1000px);
+        }
+        60%{
+            transform: translateX(0px);
+            transition: 2s all ;
+        }
     }
     #ggedsn2 {
         font-size: 1.3rem;
+        animation: ggedsn2 10s ease-in-out;
+    }
+    @keyframes ggedsn2 {
+        0%{
+            transform: translateX(-1000px);
+        }
+        85%{
+            transform: translateX(0px);
+            transition: 2s all ;
+        }
     }
     
     .reseua {
@@ -694,17 +737,17 @@ a {
         align-items: center;
         justify-content: center;
         position: relative;
-        /* animation: cercle1 10s ease-out; */
+        animation: cercle132 10s ease-out;
     }
-    /* @keyframes cercle1 {
+    @keyframes cercle132 {
         0%{
-            transform: translateX(-1200px);
+            transform: translateX(-600px);
         }
-        30%{
+        45%{
             transform: translateX(0px);
             transition: 4ms ;
         }
-    } */
+    }
     #gite2 {
         display: none;
     }
@@ -718,17 +761,17 @@ a {
         align-items: center;
         justify-content: center;
         position: relative;
-        /* animation: cercle2 10s ease-out; */
+        animation: cercle24 10s ease-out;
     }
-    /* @keyframes cercle2 {
+    @keyframes cercle24 {
         0%{
-            transform: translateX(-1900px);
+            transform: translateX(600px);
         }
-        35%{
+        45%{
             transform: translateX(0px);
             transition: 4ms ;
         }
-    } */
+    }
     .cercle3 {
         height: 40px;
         width: 40px;
@@ -738,17 +781,17 @@ a {
         align-items: center;
         justify-content: center;
         position: relative;
-        /* animation: cercle3 10s ease-out; */
+        animation: cercle37 10s ease-out;
     }
-    /* @keyframes cercle3 {
+    @keyframes cercle37 {
         0%{
-            transform: translateX(-2600px);
+            transform: translateX(600px);
         }
-        40%{
+        75%{
             transform: translateX(0px);
             transition: 4ms ;
         }
-    } */
+    }
     .cercle41 {
         height: 40px;
         width: 40px;
@@ -772,16 +815,16 @@ a {
         justify-content: center;
         position: relative;
         color: black;
-        /* animation: cercle4 10s ease-out; */
+        animation: cercle443 10s ease-out;
         /* margin-top: 100px; */
     }
-    @keyframes cercle4 {
+    @keyframes cercle443 {
         0%{
-            transform: translateX(-500px);
+            transform: translateX(-600px);
         }
-        25%{
+        75%{
             transform: translateX(0px);
-           
+            transition: 4ms ;
         }
     }
     .facp{
@@ -1087,7 +1130,7 @@ a {
         margin: 0 auto;
         /* background-color: blue; */
         z-index: 99999;
-        /* animation: cercleImage 10s ease-out; */
+        animation: cercleImage 10s ease-out;
 
     }
     @keyframes cercleImage {
@@ -1134,18 +1177,30 @@ a {
             transition: 2s all ;
         }
     }
-    /* #momlofgdh {
+    #momlofgdh {
         animation: momlofgdh 10s ease-out;
     }
     @keyframes momlofgdh {
         0%{
             transform: translateX(-500px);
         }
-        5%{
+        25%{
             transform: translateX(0px);
             transition: 4ms ;
         }
-    } */
+    }
+    #momlofgdhjj {
+        animation: momlofgdhjj 10s ease-out;
+    }
+    @keyframes momlofgdhjj {
+        0%{
+            transform: translateX(500px);
+        }
+        25%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
     #softre1 {
         position: absolute;
         /* top: 290px; */
@@ -1166,14 +1221,15 @@ a {
     #softre2 {
         position: absolute;
         /* top: 350px; */
+        /* background-color: red; */
         padding-top: 200px;
         top: 20vh;
         left: -70px;
-        /* animation: softre2 10s ease-out; */
+        /* animation: softre2 3s ease-out; */
     }
     @keyframes softre2 {
-        0%{
-            transform: translateX(7000px);
+        10%{
+            transform: translateX(-1000px);
         }
         85%{
             transform: translateX(0px);
