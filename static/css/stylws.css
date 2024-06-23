@@ -96,6 +96,7 @@ textarea {
     padding-left: 20px;
 }
 
+
 .pricpalan1 {
     height: 70px;
     width: 100%;
@@ -105,6 +106,8 @@ textarea {
     justify-content: center;
     gap: 10px;
 }
+
+
 .telecharger {
     height: 50px;
     width: 50px;
@@ -148,6 +151,8 @@ textarea {
     visibility: hidden;
     
 }
+
+
 .telecharger:hover .telecharger1{
     
     
