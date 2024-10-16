@@ -528,7 +528,7 @@ a {
     .videoprese {
         height: 110px;
         width: 100%;
-        background-color: blue;
+        background-color: rgba(16, 16, 255, 0.048);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -602,7 +602,7 @@ a {
     .videoprese {
         height: 110px;
         width: 100%;
-        background-color: blue;
+        background-color: rgba(16, 16, 255, 0.048);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1355,7 +1355,7 @@ a {
         max-width: 500px;
         height: 40px;
         padding-left: 20px;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid rgba(137, 137, 137, 0.254);
 
     }
@@ -1366,7 +1366,7 @@ a {
         padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid blue;
         background-color: blue;
         color: white;
@@ -1380,7 +1380,7 @@ a {
         max-width: 500px;
         /* height: 40px; */
         padding-left: 20px;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid rgba(137, 137, 137, 0.254);
         resize: none;
 
@@ -1488,7 +1488,7 @@ a {
         max-width: 500px;
         height: 40px;
         padding-left: 20px;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid rgba(137, 137, 137, 0.254);
 
     }
@@ -1498,7 +1498,7 @@ a {
         max-width: 500px;
         /* height: 40px; */
         padding-left: 20px;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid rgba(137, 137, 137, 0.254);
         resize: none;
 
@@ -1510,7 +1510,7 @@ a {
         padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid blue;
         background-color: blue;
         color: white;
