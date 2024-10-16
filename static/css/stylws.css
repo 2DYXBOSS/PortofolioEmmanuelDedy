@@ -204,9 +204,11 @@ a {
         padding-left: 15px;
         padding-right: 15px;
         box-shadow: 1px 1px 5px 1px rgba(222, 222, 222, 0.535); */
+      
         display: none;
     }
     .menhoa.active{
+       
         display: block;
         position: fixed;
         overflow-y: scroll;
@@ -388,6 +390,8 @@ a {
         justify-content: end;
         padding-top: 95px;
         padding-right: 20px;
+        padding-left: 20px;
+   
         /* border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
@@ -397,7 +401,7 @@ a {
         background-color: white;
         width: 100%;
         /* min-width: ; */
-        max-width: 310px;
+    
         height: 500px;
 
         z-index: 9999999999999999;
@@ -1356,7 +1360,8 @@ a {
 
     }
     #hfhjfjf button {
-        
+        width: 100%;
+        max-width: 500px;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 10px;
@@ -1499,7 +1504,8 @@ a {
 
     }
     #hfhjfjf button {
-        
+        width: 100%;
+        max-width: 500px;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 10px;
