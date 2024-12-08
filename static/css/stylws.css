@@ -380,9 +380,10 @@ a {
     .mebhhd1:hover img{
         filter: invert();
     }
-    
+   
 }
 @media (min-width : 330px) and (max-width : 800px) {
+   
     .menhoa {
         position: fixed;
         /* top: 95px;
@@ -667,7 +668,10 @@ a {
 }
 
 @media (max-width : 1000px) {
-    
+    .tesop{
+        font-size: 1rem!important;
+
+    }
     #imges1 , #imges2 ,#imges3 , #imges4 {
         display: none;
     }
